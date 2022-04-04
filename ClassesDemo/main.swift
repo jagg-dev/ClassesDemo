@@ -5,7 +5,15 @@
 //  Created by Jorge Gonzalez on 04/04/22.
 //
 
-import Foundation
+let skeleton = Enemy()
+print(skeleton.health)
+skeleton.move()
+skeleton.attack()
 
-print("Hello, World!")
+let dragon = Dragon()
+dragon.wingSpan = 5
+dragon.attackStrength = 15
+dragon.talk(speech: "My teeth are swords! My claws are spears! My wings are a hurricane.")
+dragon.move()
+dragon.attack()
 
